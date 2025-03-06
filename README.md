@@ -11,18 +11,14 @@ This script fetches data from the `wp_activity_log` table in a WordPress databas
 
 ## Installation
 
-1.  **Install Python 3:**
-
-    -   On Debian/Ubuntu: `sudo apt update && sudo apt install python3 python3-pip`
-    
-2.  **Create a virtual environment (recommended):**
+1.  **Create a virtual environment (recommended):**
 
     ```bash
     python3 -m venv venv
     source venv/bin/activate
     ```
 
-3.  **Install the required packages:**
+22.  **Install the required packages:**
 
     ```bash
     pip install -r requirements.txt
@@ -40,7 +36,6 @@ This script fetches data from the `wp_activity_log` table in a WordPress databas
     DATABASE_NAME=your_database_name
     DATABASE_USER=your_database_user
     DATABASE_PASSWORD=your_database_password
-    DOMAIN_WHOLESALE=your_wholesale_domain
     ```
 
     Replace the placeholders with your actual database credentials.
@@ -50,7 +45,7 @@ This script fetches data from the `wp_activity_log` table in a WordPress databas
 1.  **Run the script:**
 
     ```bash
-    python3 wp_activity_log.py
+    python wp_activity_log.py
     ```
 
 ## Troubleshooting
