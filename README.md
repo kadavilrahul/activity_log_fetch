@@ -45,10 +45,17 @@ This script fetches data from the `wp_activity_log` table in a WordPress databas
 1.  **Run the script:**
 
     ```bash
-    python wp_activity_log.py
+    python wp_activity.py
+    ```
+    ```bash
+    python wc_orders_fetch.py
     ```
 
 ## Troubleshooting
+
+-   **"ModuleNotFoundError: No module named 'mysql.connector'"**: Make sure you have installed the `mysql-connector-python` package using `pip install mysql-connector-python`.
+-   **"ModuleNotFoundError: No module named 'dotenv'"**: Make sure you have installed the `python-dotenv` package using `pip install python-dotenv`.
+-   **"Access denied for user..."**: Double-check your
 
 -   **"ModuleNotFoundError: No module named 'mysql.connector'"**: Make sure you have installed the `mysql-connector-python` package using `pip install mysql-connector-python`.
 -   **"ModuleNotFoundError: No module named 'dotenv'"**: Make sure you have installed the `python-dotenv` package using `pip install python-dotenv`.
