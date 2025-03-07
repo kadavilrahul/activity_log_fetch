@@ -1,4 +1,4 @@
-# WP Activity Log Data Fetcher
+# WP Data Fetcher
 
 This script fetches data from the `wp_activity_log` table in a WordPress database.
 
